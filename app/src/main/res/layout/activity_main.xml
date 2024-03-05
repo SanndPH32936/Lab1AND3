@@ -1,0 +1,9 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" tools:context=".MainActivity">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:text="Đăng nhập" android:textSize="40sp" android:textStyle="bold"/>
+    <EditText android:id="@+id/edtUser" android:layout_width="match_parent" android:layout_height="wrap_content" android:ems="10" android:hint="Nhập email hoặc số điện thoại" android:inputType="text"/>
+    <EditText android:id="@+id/edtPass" android:layout_width="match_parent" android:layout_height="wrap_content" android:ems="10" android:hint="Nhập mật khẩu" android:inputType="text|textPassword"/>
+    <Button android:id="@+id/btnDangNhap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:backgroundTint="#E53935" android:text="Đăng nhập"/>
+    <TextView android:id="@+id/textView" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:text="Bạn chưa có tài khoản" android:textSize="20sp" android:textStyle="bold"/>
+    <Button android:id="@+id/btnDangKiEmail" android:layout_width="match_parent" android:layout_height="wrap_content" android:backgroundTint="#7CB342" android:text="Đăng kí bằng email"/>
+    <Button android:id="@+id/btnDangKiSDT" android:layout_width="match_parent" android:layout_height="wrap_content" android:backgroundTint="#039BE5" android:text="Đăng kí bằng sđt"/>
+</LinearLayout>

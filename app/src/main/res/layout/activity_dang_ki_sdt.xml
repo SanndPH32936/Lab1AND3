@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DangKiSDT">
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:text="Đăng Kí" android:textSize="40sp" android:textStyle="bold"/>
+    <EditText android:id="@+id/edtUserSdtDK" android:layout_width="match_parent" android:layout_height="wrap_content" android:ems="10" android:hint="Nhập số điện thoại" android:inputType="text"/>
+    <Button android:id="@+id/btnNhanMa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:backgroundTint="#E53935" android:text="Nhận mã"/>
+    <EditText android:id="@+id/edtPassSdtDK" android:layout_width="match_parent" android:layout_height="wrap_content" android:ems="10" android:hint="Nhập mã" android:inputType="text|textPassword"/>
+    <Button android:id="@+id/btnDangKiSdt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:backgroundTint="#E53935" android:text="Đăng kí"/>
+
+
+</LinearLayout>
